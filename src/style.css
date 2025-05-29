@@ -1,0 +1,42 @@
+/* Importa as classes utilitárias do Tailwind CSS */
+@import "tailwindcss";
+
+/* Define comportamento suave para rolagem de âncoras e cor de fundo global */
+html {
+  scroll-behavior: smooth;         /* Rola suavemente ao clicar em links com "#" */
+  background-color: #000000;       /* Cor de fundo escura personalizada */
+}
+
+/* Animação de fade-in com leve movimento vertical */
+@keyframes fade-in {
+  from {
+    opacity: 0;                    /* Começa invisível */
+    transform: translateY(-10px);  /* Levemente acima da posição final */
+  }
+  to {
+    opacity: 1;                    /* Totalmente visível */
+    transform: translateY(0);      /* Volta à posição normal */
+  }
+}
+
+/* Classe utilitária para aplicar a animação de fade-in */
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out; /* Duração de 0.4s com transição suave */
+}
+
+/* Animação de "pulso" suave, usada em elementos decorativos como círculos */
+@keyframes pulse-glow {
+  0%, 100% {
+    transform: scale(1);           /* Tamanho original */
+    opacity: 0.12;                 /* Bem sutil */
+  }
+  50% {
+    transform: scale(1.15);        /* Levemente maior no meio do ciclo */
+    opacity: 0.2;                  /* Um pouco mais visível */
+  }
+}
+
+/* Classe utilitária que aplica o efeito de "pulso" indefinidamente */
+.animate-pulse-glow {
+  animation: pulse-glow 8s ease-in-out infinite; /* Animação contínua e suave */
+}

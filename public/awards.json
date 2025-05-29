@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Melhor Cantor",
+    "year": "2022",
+    "desc": "Prêmio Multishow de Música Brasileira",
+    "icon": "FaTrophy",
+    "color": "text-yellow-400"
+  },
+  {
+    "title": "Disco de Ouro",
+    "year": "2020",
+    "desc": "Álbum “Viva” atingiu marca de vendas histórica",
+    "icon": "FaCompactDisc",
+    "color": "text-red-400"
+  },
+  {
+    "title": "Artista do Ano",
+    "year": "2018",
+    "desc": "Prêmio da Música Brasileira",
+    "icon": "FaStar",
+    "color": "text-purple-400"
+  },
+  {
+    "title": "Melhor Show",
+    "year": "2015",
+    "desc": "Turnê acústica premiada no Prêmio Multishow",
+    "icon": "FaMusic",
+    "color": "text-pink-400"
+  },
+  {
+    "title": "Hit do Ano – “Escreve Aí”",
+    "year": "2015",
+    "desc": "Melhores do Ano (Domingão do Faustão)",
+    "icon": "FaPenFancy",
+    "color": "text-orange-400"
+  },
+  {
+    "title": "Cantor Favorito",
+    "year": "2013-2016",
+    "desc": "Meus Prêmios Nick (voto popular)",
+    "icon": "FaMicrophoneAlt",
+    "color": "text-blue-400"
+  },
+  {
+    "title": "Melhor Cantor Sertanejo",
+    "year": "2012-2016",
+    "desc": "Troféu Imprensa por 5 anos consecutivos",
+    "icon": "GiGuitarBassHead",
+    "color": "text-green-400"
+  },
+  {
+    "title": "Melhor Artista Brasileiro",
+    "year": "2014-2015",
+    "desc": "MTV Europe Music Awards",
+    "icon": "FaGlobeAmericas",
+    "color": "text-cyan-400"
+  }
+]
