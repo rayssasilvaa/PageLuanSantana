@@ -1,12 +1,23 @@
-# React + Vite
+# Página Web - Luan Santana (React + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma página web responsiva e moderna dedicada ao cantor **Luan Santana**, desenvolvida utilizando **React** e estilizada com **TailwindCSS**. A aplicação também utiliza diversas bibliotecas para otimizar a experiência do usuário, incluindo animações ao scroll, ícones e ferramentas de lint.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React 19.1.0** – Biblioteca para construção da interface.
+- **Vite 6.3.5** – Bundler e ambiente de desenvolvimento rápido.
+- **TailwindCSS 4.1.6** – Framework CSS utilitário para estilização.
+- **AOS 2.3.4** – Biblioteca para animações ao scroll.
+- **React Icons 5.5.0** – Conjunto de ícones para React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- Página totalmente responsiva e otimizada para dispositivos móveis e desktop.
+- Efeitos visuais e transições suaves ao rolar a página, inspirados no site oficial do Luan Santana.
+- Logo com efeito de zoom animado conforme o scroll.
+- Seção de biografia com animação de entrada ao visualizar.
+- Seção de premiações (Awards) estilizada com ícones.
+- Uso do hook personalizado `useScrollVisible` para reaplicar efeitos ao retornar visibilidade dos componentes.
+- Código modularizado e organizado para fácil manutenção e escalabilidade.
